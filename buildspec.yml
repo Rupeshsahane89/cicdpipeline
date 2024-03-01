@@ -33,5 +33,5 @@ post_build:
     - echo printing imagedefinations.json
     - cat imagedefinations.json
 artifacts:
-files:
+  files:
   - imagedefinations.json
