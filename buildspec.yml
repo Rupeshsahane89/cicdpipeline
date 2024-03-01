@@ -6,7 +6,8 @@ phases:
       - echo Logging into Amazon ECR started on `date`
       - aws --version
       - echo Logging into Amazon ECR....
-      - aws ecr get-login-password --region us-east-1 | docker login --rupeshshanebrightlinkinfo  AWS --Nana@1008-stdin 637423406674.dkr.ecr.us-east-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-1 | docker login --rupeshshanebrightlinkinfo  AWS ZV7kZLNlv/ZSeC0CIYazxfMdtilvTTdBVZQTLmDE6l8=	ZV7kZLNlv/ZSeC0CIYazxfMdtilvTTdBVZQTLmDE6l8=	ZV7kZLNlv/ZSeC0CIYazxfMdtilvTTdBVZQTLmDE6l8=	ZV7kZLNlv/ZSeC0CIYazxfMdtilvTTdBVZQTLmDE6l8=	ZV7kZLNlv/ZSeC0CIYazxfMdtilvTTdBVZQTLmDE6l8=
+        --stdin 637423406674.dkr.ecr.us-east-1.amazonaws.com
       - echo setting repository URI....
       - REPOSITORY_URI=637423406674.dkr.ecr.us-east-1.amazonaws.com/cicdpipeline
       - echo setting image tag....
